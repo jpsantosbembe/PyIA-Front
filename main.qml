@@ -88,6 +88,20 @@ Window {
 
 
             Rectangle {
+                id: rectangle1
+                color: "#ffffff"
+                anchors.left: topBar.left
+                anchors.right: topBar.right
+                anchors.top: topBar.bottom
+                anchors.bottom: rectangle.top
+                z: 3
+                anchors.rightMargin: 0
+                anchors.leftMargin: 0
+                anchors.bottomMargin: 0
+                anchors.topMargin: 0
+            }
+
+            Rectangle {
                 id: rectangle
                 color: "#c5ffffff"
                 radius: 10
@@ -119,11 +133,11 @@ Window {
                 anchors.bottomMargin: 20
                 anchors.topMargin: 25
                 ScrollBar.vertical: ScrollBar {
-                        visible: false
-                    }
+                    visible: false
+                }
                 ScrollBar.horizontal: ScrollBar {
-                        visible: false
-                    }
+                    visible: false
+                }
 
                 ListView {
                     id: listView
@@ -194,6 +208,20 @@ Window {
 
             }
             Rectangle {
+                id: rectangle2
+                color: "#ffffff"
+                anchors.left: inputContainer.left
+                anchors.right: inputContainer.right
+                anchors.top: rectangle.bottom
+                anchors.bottom: inputContainer.top
+                z: 3
+                anchors.rightMargin: 0
+                anchors.leftMargin: 0
+                anchors.bottomMargin: 0
+                anchors.topMargin: 0
+            }
+
+            Rectangle {
                 id: inputContainer
                 y: 384
                 height: 86
@@ -256,6 +284,20 @@ Window {
 
 
             }
+
+            Rectangle {
+                id: rectangle3
+                color: "#ffffff"
+                anchors.left: topBar.left
+                anchors.right: topBar.right
+                anchors.top: parent.top
+                anchors.bottom: topBar.top
+                anchors.rightMargin: 0
+                anchors.leftMargin: 0
+                anchors.bottomMargin: 0
+            }
+
+
 
         }
     }
