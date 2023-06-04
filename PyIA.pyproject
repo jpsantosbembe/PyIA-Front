@@ -1,0 +1,3 @@
+{
+    "files": ["chat/elements/receivedMessage.qml","images/Group 5.png","images/pyiaprofilePic.png","images/microfoneButtonPic.png","main.qml","main.py","images/sendButtonPic.png","images/Ellipse 30.png","chat/elements/sentMessage.qml"]
+}
